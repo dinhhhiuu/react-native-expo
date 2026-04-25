@@ -1,6 +1,6 @@
 # React Native Testing
 
-[![CI](https://github.com/dinhhhiuu/react-native-expo/actions/workflows/build.yml/badge.svg)](https://github.com/dinhhhiuu/react-native-expo/actions) [![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=dinhhhiuu_react-native-expo&metric=alert_status)](https://sonarcloud.io/summary/new_code?id=dinhhhiuu_react-native-expo)
+[![CI](https://github.com/dinhhhiuu/react-native-expo/actions/workflows/test.yml/badge.svg)](https://github.com/dinhhhiuu/react-native-expo/actions) [![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=dinhhhiuu_react-native-expo&metric=alert_status)](https://sonarcloud.io/summary/new_code?id=dinhhhiuu_react-native-expo)
 
 ## Running tests locally
 
