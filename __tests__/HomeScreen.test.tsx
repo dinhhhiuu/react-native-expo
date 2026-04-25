@@ -2,13 +2,13 @@ import HomeScreen, { CustomText } from "@/app/index";
 import { fireEvent, render } from "@testing-library/react-native";
 
 describe("<HomeScreen />", () => {
-  // ✅ 1. Render test
+  // 1. Render test
   test("renders correctly", () => {
     const { getByText } = render(<HomeScreen />);
     expect(getByText("Welcome!")).toBeTruthy();
   });
 
-  // ✅ 2. Button press test
+  // 2. Button press test
   test("increments count when button pressed", () => {
     const { getByTestId } = render(<HomeScreen />);
 
@@ -22,7 +22,7 @@ describe("<HomeScreen />", () => {
     expect(countText.props.children).toContain(1);
   });
 
-  // ✅ 3. Không crash
+  // 3. Not crashing test
   test("does not crash when rendering", () => {
     expect(() => render(<HomeScreen />)).not.toThrow();
   });
